@@ -1,0 +1,26 @@
+r = 0.882915
+  bajo: fracción 0.2649 -> T0 = 53.71
+  medio: fracción 0.5649 -> T0 = 113.41
+  alto: fracción 0.8649 -> T0 = 173.11
+
+ANOVA de dos factores (variable: brecha %)
+                               sum_sq  df         F  PR(>F)
+fuente                                                    
+C(temperatura)             1236.8769   2   10.1406  0.0001
+C(tamano)                 17332.7674   2  142.1033  0.0000
+C(temperatura):C(tamano)   1367.0948   4    5.6041  0.0005
+Residual                   4939.9058  81       NaN     NaN
+
+Pruebas por tamaño
+    tamano  p_anova_1f  p_kruskal
+0       5         NaN        NaN
+1      10    0.038878   0.047109
+2      15    0.002596   0.006172
+
+Temperatura óptima por tamaño
+    tamano nivel_optimo  ...   ic95_sup  niveles_empatados_en_mediana
+0       5         bajo  ...   0.000000                             3
+1      10         bajo  ...   0.000000                             2
+2      15         bajo  ...  29.920075                             1
+
+[3 rows x 7 columns]

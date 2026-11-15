@@ -1,0 +1,4 @@
+tamano,nivel_optimo,T_optima,mediana_bootstrap,ic95_inf,ic95_sup,niveles_empatados_en_mediana
+5,bajo,53.71,0.0,0.0,0.0,3
+10,bajo,53.71,0.0,0.0,0.0,2
+15,bajo,53.71,16.56259812153983,10.81868289093617,29.920075232390975,1
